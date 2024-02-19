@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40a9a38f-0a7e-45ab-a3aa-4734de889973" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/WorkProjectFrauds.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/.env.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/1234.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/WorkProject/.idea/WorkProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/WorkProject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/WorkProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/WorkProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/WorkProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/WorkProject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/WorkProject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/WorkProject/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/WorkProject/authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/WorkProject/celery1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/WorkProject/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/WorkProject/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/WorkProject/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/WorkProject/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/celerybeat-schedule" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/migrations/0002_alter_fraud_date.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/migrations/0003_prison_fraud_phonenumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/migrations/0004_alter_fraud_phonenumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/migrations/0005_fraud_phonenumber_history_fraud_phonenumber_location_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/migrations/0006_imei_phonenumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/migrations/0007_alter_imei_date_to_alter_imei_date_up_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/migrations/0008_phonenumberfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/migrations/0009_phonenumberfile_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/migrations/0010_alter_category_options_alter_fraud_category_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/migrations/0011_bslocation_control_fraud_damage_fraud_stage_of_crime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/migrations/0012_fraud_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/migrations/0013_phonenumberfile_user_alter_phonenumberfile_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/models/bs_location.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/models/category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/models/control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/models/district.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/models/fraud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/models/imei_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/models/num_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/models/phonenumber_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/models/prison.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/parsing_history_imei.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/parsing_history_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/frauds/viewsets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/historycomb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/imei_history/1234.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/imei_history/1234_qwZllZA.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/imei_history/380660823404.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/imei_history/380986592053.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/imei_history/380986592053_ECQTvqu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/imei_history/380986592053_IL9s7Ps.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/imei_history/380986592053_MaUzd6F.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/imei_history/380986592053_TJFrSD1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/imei_history/380986592053_eDT5WJN.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/imei_history/380986592053_mI9IO9G.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/imei_history/380986592053_mJPd3Bs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/num_history/1234.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/num_history/1234_xCNZGd3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/num_history/380660823404.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/num_history/380962476294.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/num_history/380962476294_1s9grqO.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/num_history/380962476294_4eaPI77.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/num_history/380962476294_9kWlnP1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/num_history/380962476294_MgVonsT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/num_history/380962476294_zPu0tOG.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/num_location/1234.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/num_location/1234_5iCPIr9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/num_location/1234_8M4501o.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/num_location/1234_CYxszxi.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/num_location/1234_PqnxXib.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/num_location/1234_x2eGui0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/telegram/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkProject/telegram/client.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2cVmCadso0F2RwuJT2dwWHmSuPN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.celery.executor&quot;: &quot;Run&quot;,
+    &quot;Python.celery1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40a9a38f-0a7e-45ab-a3aa-4734de889973" name="Changes" comment="" />
+      <created>1708204994299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708204994299</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
