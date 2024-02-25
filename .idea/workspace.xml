@@ -4,60 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40a9a38f-0a7e-45ab-a3aa-4734de889973" name="Changes" comment="try tests docker1">
-      <change afterPath="$PROJECT_DIR$/workproject/.github/workflows/pull-request.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workproject/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workproject/.idea/WorkProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workproject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workproject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workproject/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workproject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workproject/.pylintrc" afterDir="false" />
+    <list default="true" id="40a9a38f-0a7e-45ab-a3aa-4734de889973" name="Changes" comment="try tests docker">
+      <change afterPath="$PROJECT_DIR$/workproject/workproject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/filters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/migrations/0002_alter_fraud_date.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/migrations/0002_alter_fraud_date.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/migrations/0003_prison_fraud_phonenumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/migrations/0003_prison_fraud_phonenumber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/migrations/0004_alter_fraud_phonenumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/migrations/0004_alter_fraud_phonenumber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/migrations/0005_fraud_phonenumber_history_fraud_phonenumber_location_and_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/migrations/0005_fraud_phonenumber_history_fraud_phonenumber_location_and_more.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/migrations/0006_imei_phonenumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/migrations/0006_imei_phonenumber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/migrations/0007_alter_imei_date_to_alter_imei_date_up_and_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/migrations/0007_alter_imei_date_to_alter_imei_date_up_and_more.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/migrations/0008_phonenumberfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/migrations/0008_phonenumberfile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/migrations/0009_phonenumberfile_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/migrations/0009_phonenumberfile_name.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/migrations/0010_alter_category_options_alter_fraud_category_and_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/migrations/0010_alter_category_options_alter_fraud_category_and_more.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/migrations/0011_bslocation_control_fraud_damage_fraud_stage_of_crime.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/migrations/0011_bslocation_control_fraud_damage_fraud_stage_of_crime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/migrations/0012_fraud_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/migrations/0012_fraud_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/migrations/0013_phonenumberfile_user_alter_phonenumberfile_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/migrations/0013_phonenumberfile_user_alter_phonenumberfile_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/models/bs_location.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/models/bs_location.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/models/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/models/category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/models/control.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/models/control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/models/district.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/models/district.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/models/fraud.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/models/fraud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/models/imei_history.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/models/imei_history.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/models/num_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/models/num_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/models/phonenumber_history.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/models/phonenumber_history.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/models/prison.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/models/prison.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/parsing_history_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/parsing_history_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/permissions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/tasks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/tests/models/test_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/tests/models/test_category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/viewsets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/google_sheets/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/google_sheets/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/telegram/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/telegram/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/workproject/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/workproject/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/workproject/authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/workproject/authentication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/workproject/celery1.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/workproject/celery1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workproject/.github/workflows/pull-request.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/.github/workflows/pull-request.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workproject/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workproject/workproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/workproject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/workproject/task.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/workproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/workproject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/workproject/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/workproject/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/workproject/workproject" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -85,21 +37,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python tests.Python tests for test_category.CategoryTestCase.executor": "Run",
-    "Python tests.Python tests for test_category.CategoryTestCase.test_category.executor": "Run",
-    "Python tests.Python tests for test_category.CategoryTestCase.test_category_function.executor": "Run",
-    "Python.celery.executor": "Run",
-    "Python.celery1.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/lena/WorkProjectFrauds",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_category.CategoryTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.CategoryTestCase.test_category.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.CategoryTestCase.test_category_function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.celery.executor&quot;: &quot;Run&quot;,
+    &quot;Python.celery1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/lena/WorkProjectFrauds&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/WorkProject/frauds/tests/models" />
@@ -241,15 +193,47 @@
       <option name="project" value="LOCAL" />
       <updated>1708849080556</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="try tests docker">
+      <option name="closed" value="true" />
+      <created>1708866536864</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708866536864</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="tg celery" />
-    <MESSAGE value="try tests docker" />
     <MESSAGE value="try tests docker1" />
-    <option name="LAST_COMMIT_MESSAGE" value="try tests docker1" />
+    <MESSAGE value="try cheking code" />
+    <MESSAGE value="try tests docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="try tests docker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
