@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40a9a38f-0a7e-45ab-a3aa-4734de889973" name="Changes" comment="try tests docker">
-      <change afterPath="$PROJECT_DIR$/workproject/workproject" afterDir="false" />
+    <list default="true" id="40a9a38f-0a7e-45ab-a3aa-4734de889973" name="Changes" comment="try gitactions">
+      <change afterPath="$PROJECT_DIR$/workproject/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workproject/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/.github/workflows/pull-request.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/.github/workflows/pull-request.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workproject/frauds/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/viewsets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workproject/workproject" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/workproject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workproject/workproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/workproject/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/workproject" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -37,21 +39,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test_category.CategoryTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_category.CategoryTestCase.test_category.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_category.CategoryTestCase.test_category_function.executor&quot;: &quot;Run&quot;,
-    &quot;Python.celery.executor&quot;: &quot;Run&quot;,
-    &quot;Python.celery1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/lena/WorkProjectFrauds&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Docker.workproject/Dockerfile.executor": "Run",
+    "Python tests.Python tests for test_category.CategoryTestCase.executor": "Run",
+    "Python tests.Python tests for test_category.CategoryTestCase.test_category.executor": "Run",
+    "Python tests.Python tests for test_category.CategoryTestCase.test_category_function.executor": "Run",
+    "Python.celery.executor": "Run",
+    "Python.celery1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/lena/WorkProjectFrauds",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/WorkProject/frauds/tests/models" />
@@ -60,7 +63,20 @@
       <recent name="$PROJECT_DIR$/WorkProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for WorkProject.frauds.tests.models.test_category.CategoryTestCase.test_category_function">
+  <component name="RunManager" selected="Docker.workproject/Dockerfile">
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <configuration name="workproject/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="workproject/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for WorkProject.frauds.tests.models.test_category.CategoryTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="WorkProjectFrauds" />
       <option name="ENV_FILES" value="" />
@@ -153,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.workproject/Dockerfile" />
         <item itemvalue="Python tests.Python tests for WorkProject.frauds.tests.models.test_category.CategoryTestCase.test_category_function" />
         <item itemvalue="Python tests.Python tests for WorkProject.frauds.tests.models.test_category.CategoryTestCase.test_category_function" />
         <item itemvalue="Python tests.Python tests for workproject.frauds.tests" />
         <item itemvalue="Python tests.Python tests for workproject.frauds.tests" />
-        <item itemvalue="Python tests.Python tests for WorkProject.frauds.tests.models.test_category.CategoryTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708866536864</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="try gitactions">
+      <option name="closed" value="true" />
+      <created>1708869613141</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708869613141</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,7 +257,8 @@
     <MESSAGE value="try tests docker1" />
     <MESSAGE value="try cheking code" />
     <MESSAGE value="try tests docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="try tests docker" />
+    <MESSAGE value="try gitactions" />
+    <option name="LAST_COMMIT_MESSAGE" value="try gitactions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
