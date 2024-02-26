@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40a9a38f-0a7e-45ab-a3aa-4734de889973" name="Changes" comment="try doc1" />
+    <list default="true" id="40a9a38f-0a7e-45ab-a3aa-4734de889973" name="Changes" comment="try doc1">
+      <change afterPath="$PROJECT_DIR$/workproject/workproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workproject/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workproject/workproject" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/workproject" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -264,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708936166742</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="try doc1">
+      <option name="closed" value="true" />
+      <created>1708936317216</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708936317216</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
