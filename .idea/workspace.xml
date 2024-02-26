@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40a9a38f-0a7e-45ab-a3aa-4734de889973" name="Changes" comment="try gitactions">
-      <change afterPath="$PROJECT_DIR$/workproject/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workproject/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/frauds/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/frauds/viewsets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/workproject" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/workproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workproject/workproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/workproject/settings.py" afterDir="false" />
+    <list default="true" id="40a9a38f-0a7e-45ab-a3aa-4734de889973" name="Changes" comment="try doc">
+      <change beforePath="$PROJECT_DIR$/workproject/celerybeat-schedule" beforeDir="false" afterPath="$PROJECT_DIR$/workproject/celerybeat-schedule" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_COMMON_BRANCH" value="master" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/workproject" />
   </component>
   <component name="ProjectColorInfo">{
@@ -50,7 +45,7 @@
     "Python.celery1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "git__actions",
     "last_opened_file_path": "/home/lena/WorkProjectFrauds",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
@@ -225,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708869613141</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="try doc">
+      <option name="closed" value="true" />
+      <created>1708935739908</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708935739909</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +261,8 @@
     <MESSAGE value="try cheking code" />
     <MESSAGE value="try tests docker" />
     <MESSAGE value="try gitactions" />
-    <option name="LAST_COMMIT_MESSAGE" value="try gitactions" />
+    <MESSAGE value="try doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="try doc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
